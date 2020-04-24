@@ -59,8 +59,8 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
-        }
+          loader: 'babel-loader',
+        },
       },
       {
         test: /\.(s*)css$/,
@@ -69,8 +69,8 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          'sass-loader'
-        ]
+          'sass-loader',
+        ],
       },
       {
         test: /\.(png|gif|jpg)$/,
@@ -78,12 +78,12 @@ module.exports = {
           {
             'loader': 'file-loader',
             options: {
-              name: 'assets/[hash].[ext]'
-            }
-          }
-        ]
-      }
-    ]
+              name: 'assets/[hash].[ext]',
+            },
+          },
+        ],
+      },
+    ],
   },
   devServer: {
     historyApiFallback: true,
