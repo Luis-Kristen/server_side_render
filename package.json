@@ -14,7 +14,6 @@
   "dependencies": {
     "@babel/register": "^7.9.0",
     "asset-require-hook": "^1.2.0",
-    "babel": "^6.23.0",
     "babel-eslint": "^10.1.0",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
@@ -23,7 +22,6 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "exppress": "0.0.1-security",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
     "history": "^4.10.1",
@@ -40,7 +38,8 @@
     "redux": "^4.0.5",
     "webpack": "^4.43.0",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-hot-middleware": "^2.25.0"
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-manifest-plugin": "^2.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
